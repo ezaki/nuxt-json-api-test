@@ -1,7 +1,7 @@
 const https = require('https')
 
 // Netlify deploy URL
-const url = "https://api.netlify.com/build_hooks/5c0542ccb3127447fad1b0d9"
+const url = "HOOK_URL"
 
 exports.handler = (event, context, callback) => {
   const hostname = url.match(/^https?:\/\/([^/]+)\/.*$/)[1]

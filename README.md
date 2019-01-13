@@ -30,5 +30,9 @@ cron-job.org ( https://cron-job.org/ ) を使用します。
    ![image](https://user-images.githubusercontent.com/13980441/50352283-2e2e7b00-0588-11e9-92c1-45fdf053c3c6.png)
    ![image](https://user-images.githubusercontent.com/13980441/50352292-31296b80-0588-11e9-93a3-2cbe233ceff5.png)
 
+1. 一度設定を保存してから、作成した cronjob を編集します。
+   編集画面の Advanced 内 Request method を `GET` から `POST` へ変更します。
+   また、 Request body を `{}` とします。
+
 1. 設定した時間に正しく実行されることを確認します
    選択した時間により、待ち時間が発生します（平均 30 秒以上）
